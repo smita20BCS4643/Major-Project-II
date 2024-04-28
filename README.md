@@ -23,7 +23,8 @@ areas
 ![pfinalroject io drawio](https://github.com/smita20BCS4643/Major-Project-II/assets/101444257/dd866266-3352-423c-8c09-13f806520cc7)
 
 ## Circuit Design
-![F9ZDGUZIPOAVE27](https://github.com/smita20BCS4643/Major-Project-II/assets/101444257/27dfc494-1a35-4ec6-9382-d11faf6a47a3)
+![circuit diagram](https://github.com/smita20BCS4643/Major-Project-II/assets/101444257/0cef59b1-d634-4b63-b2a6-eb003abc6e7d)
+
 
 ## Electrode Placement
 
