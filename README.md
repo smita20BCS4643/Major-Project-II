@@ -52,9 +52,5 @@ areas
 ![result](https://github.com/smita20BCS4643/Major-Project-II/assets/101444257/df6240e9-3eff-40c9-979d-ab8eadd9fc7f)
 
 
-# Demonstration Video
-
-
-https://github.com/smita20BCS4643/Major-Project-II/assets/101444257/db7eba85-675e-4b26-8204-6beb70afc053
 
 
