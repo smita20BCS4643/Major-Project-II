@@ -8,3 +8,11 @@ customizable solution for ECG acquisition, processing, and analysis, promoting h
 learning and experimentation in biomedical instrumentation and signal processing. This
 project highlights the potential of utilizing accessible hardware and software tools for
 practical healthcare technology applications
+
+## INTRODUCTION 
+
+### Problem Statement 
+Develop a cost-effective and portable DIY ECG (Electrocardiogram) system using readily available
+components and open-source software, addressing the lack of accessible and affordable
+ECG monitoring solutions, particularly in resource-constrained settings or remote
+areas
