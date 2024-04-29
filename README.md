@@ -17,6 +17,42 @@ components and open-source software, addressing the lack of accessible and affor
 ECG monitoring solutions, particularly in resource-constrained settings or remote
 areas
 
+## Hardware Implementation
+
+1. **Operational Amplifier Circuit**:
+   - Connect the non-inverting input (+) of one op-amp in the LM324 quad op-amp package to ground using a 100kΩ resistor.
+   - Connect the inverting input (-) of the same op-amp to the output through a 10kΩ resistor, forming a non-inverting amplifier configuration.
+   - Connect the output of this op-amp to the non-inverting input (+) of another op-amp in the LM324 package.
+   - Connect the inverting input (-) of the second op-amp to ground using a 100kΩ resistor.
+   - Connect the output of the second op-amp to the inverting input (-) through a 10kΩ resistor, forming an inverting amplifier configuration.
+
+2. **Filtering**:
+   - Connect the output of the second op-amp to the positive terminal of the 1μF electrolytic capacitor.
+   - Connect the negative terminal of the 1μF electrolytic capacitor to ground.
+   - Connect the positive terminal of the 0.1μF ceramic capacitor (104M) to the output of the second op-amp.
+   - Connect the negative terminal of the 0.1μF ceramic capacitor to ground.
+
+3. **ECG Signal Acquisition**:
+   - Connect one of the DIN ECG snap leads or alligator clips to the non-inverting input (+) of the first op-amp in the LM324 package.
+   - Connect the other two DIN ECG snap leads or alligator clips to the right arm and left leg surface electrodes or pennies (use lotion if using pennies).
+
+4. **Power Supply**:
+   - Connect the positive voltage hub (V+) to the positive power supply terminal of the LM324 quad op-amp package.
+   - Connect the negative voltage hub (V-) to the negative power supply terminal of the LM324 quad op-amp package.
+
+5. **Analog Discovery Connections**:
+   - Connect the orange wire with a white stripe (Scope Ch. 1 negative) to the ground of the Analog Discovery.
+   - Connect the orange wire (Scope Ch. 1 positive) to the output of the second op-amp, which is the voltage output of the circuit.
+   - Connect the white wire (V-) to the negative voltage hub.
+   - Connect the red wire (V+) to the positive voltage hub.
+
+6. **Diode Protection**:
+   - Connect the anode (positive terminal) of one diode to the non-inverting input (+) of the first op-amp in the LM324 package, where the ECG signal from the right arm electrode is connected.
+   - Connect the cathode (negative terminal) of the same diode to ground.
+   - Connect the anode of another diode to the non-inverting input (+) of the first op-amp, where the ECG signal from the left leg electrode is connected.
+   - Connect the cathode of this diode to ground.
+
+
 
 ## Flowchart
 
